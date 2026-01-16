@@ -1,2 +1,2 @@
-# estudos_python_ferias
-Estudos sobre o básico de python durante as férias de jan-fev.
+# Script para registro automatizado de matérias estudadas com log de data e hora.
+Python, bibliotecas padrão (time) e manipulação de arquivos (.txt).
