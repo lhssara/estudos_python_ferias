@@ -1,0 +1,15 @@
+# --- CONFIGURAÇÃO ---
+meta = 7500.00
+economias = [ 25.00] 
+
+# --- LÓGICA ---
+total = sum(economias)
+porcentagem = (total / meta) * 100
+falta = meta - total
+
+# --- RESULTADOS ---
+print("-" * 30)
+print(f"Total guardado: R$ {total:.2f}")
+print(f"Progresso: {porcentagem:.2f}%")
+print(f"Falta para a meta: R$ {falta:.2f}")
+print("-" * 30)
